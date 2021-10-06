@@ -20,7 +20,7 @@ const Events = require('@janiscommerce/events');
 Events.emit('some-random-event', 'foo', 'bar');
 ```
 
-For more information see the Node.js documentation [emitter.emit()](https://nodejs.org/api/events.htmlevents_emitter_emit_eventname_args).
+For more information see the Node.js documentation [emitter.emit()](https://nodejs.org/api/events.html#events_emitter_emit_eventname_args).
 
 ### Listen
 
