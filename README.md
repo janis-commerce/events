@@ -25,6 +25,7 @@ For more information see the Node.js documentation [emitter.emit()](https://node
 ### Listen
 
 To create listener for an event you should call the _static_ method `on(eventName, callback)`.
+
 The callback will be called **every time** the event was emitted.
 
 ```js
@@ -42,6 +43,7 @@ For more information see the Node.js documentation [emitter.on()](https://nodejs
 ### One time listener
 
 To create listener that is only **called once** should register the listener with the _static_ method `once(eventName, callback)`.
+
 The callback will be called **only the first time** the event was emitted.
 
 ```js
